@@ -96,7 +96,7 @@ localStorage.setItem(uniqueKey, JSON.stringify(data));
                             console.log(si)
                             var totalCopi = si * 50;
                             var totalCopias= totalCopi + no;
-                            document.getElementById("totalGeneral").innerText = "pacchi:" + " " + si +" " + "copie:" + " " +  totalCopias;
+                            document.getElementById("totalGeneral").innerText = "Pacchi:" + " " + si +" " + "Copie:" + " " +  totalCopias;
                             
    
     });
