@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Corriere di Romagna</title>
+  <link rel="stylesheet" href="corriere.css">
+</head>
+<body>
+  <div class="header">
+    <h1>🚚 Corriere di Romagna</h1>
+    <p>Gestione rapida dei bancali e pacchi</p>
+  </div>
+
+  <div class="container">
+
+    <!-- Tabella 1 -->
+    <div class="city-list">
+      <h2>Rimini</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Cliente</th>
+            <th>Pacchi</th>
+            <th>Spezzature</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><input type="text" placeholder="Nome cliente"></td>
+            <td><input type="number" class="amount" value="0"></td>
+            <td><input type="number" class="spezzatura" value="0"></td>
+          </tr>
+          <tr>
+            <td><input type="text" placeholder="Nome cliente"></td>
+            <td><input type="number" class="amount" value="0"></td>
+            <td><input type="number" class="spezzatura" value="0"></td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="result">
+        Totale Pacchi: <span class="tot">0</span> |
+        Spezzature: <span class="spezzTotal">0</span>
+      </div>
+    </div>
+
+    <!-- Tabella 2 -->
+    <div class="city-list">
+      <h2>Cesena</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Cliente</th>
+            <th>Pacchi</th>
+            <th>Spezzature</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><input type="text" placeholder="Nome cliente"></td>
+            <td><input type="number" class="amount" value="0"></td>
+            <td><input type="number" class="spezzatura" value="0"></td>
+          </tr>
+          <tr>
+            <td><input type="text" placeholder="Nome cliente"></td>
+            <td><input type="number" class="amount" value="0"></td>
+            <td><input type="number" class="spezzatura" value="0"></td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="result">
+        Totale Pacchi: <span class="tot">0</span> |
+        Spezzature: <span class="spezzTotal">0</span>
+      </div>
+    </div>
+
+    <!-- Tabella 3 -->
+    <div class="city-list">
+      <h2>Ravenna</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Cliente</th>
+            <th>Pacchi</th>
+            <th>Spezzature</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><input type="text" placeholder="Nome cliente"></td>
+            <td><input type="number" class="amount" value="0"></td>
+            <td><input type="number" class="spezzatura" value="0"></td>
+          </tr>
+          <tr>
+            <td><input type="text" placeholder="Nome cliente"></td>
+            <td><input type="number" class="amount" value="0"></td>
+            <td><input type="number" class="spezzatura" value="0"></td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="result">
+        Totale Pacchi: <span class="tot">0</span> |
+        Spezzature: <span class="spezzTotal">0</span>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    <button onclick="window.location.href='index.html'">⬅️ Torna alla Home</button>
+    <button onclick="window.print()">🖨️ Stampa</button>
+  </div>
+
+  <script src="corriere.js"></script>
+</body>
+</html>
