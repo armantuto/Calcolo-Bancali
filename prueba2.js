@@ -32,6 +32,7 @@ function sumarCantidadesPorLista() {
 
     var pacchi = total
     var select = list.querySelector('.miSelect').value;
+       
 
     var fija = 1
 
