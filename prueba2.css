@@ -63,6 +63,13 @@ table, th, td {
 }
 
 */
+.header {
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: white;
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
 /* 🌐 RESET DI BASE */
 * {
   margin: 0;
